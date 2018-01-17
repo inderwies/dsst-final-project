@@ -17,9 +17,42 @@
 <li>It should meet the standards of MVP and appear reasonably complete for the end-user</li>
 </ul>
 </li>
-<li>The site should run locally without</li>
+<li>Your full working site shouldbe committed to GitHub</li>
 </ul>
-<h2 id="ideas-and-inspiration">Ideas and Inspiration</h2>
+<h2 id="rubric">Rubric</h2>
+<p>You should choose goals to accumulate <em>at least</em> 100 points total. Each goal carries a max point value.</p>
+
+<table>
+<thead>
+<tr>
+<th>Goal</th>
+<th>Points</th>
+<th>Stretch Goal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>At least 4 pages of content that use HTML5 with semantic tagging</td>
+<td>5</td>
+<td>Use the canvas tag</td>
+</tr>
+<tr>
+<td>A layout with effective use of the box model (properly-aligned <em>div</em> tags with margin, padding, clear, and float)</td>
+<td>5</td>
+<td></td>
+</tr>
+<tr>
+<td>A single CSS3 stylesheet with classes and restyled HTML tags as appropriate (such as <em>ul</em>, <em>li</em>, <em>a</em> and so forth)</td>
+<td>5</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table><h2 id="ideas-and-inspiration">Ideas and Inspiration</h2>
 <ul>
 <li>A recipes page where the users enters ingredients, the website hits an external api, and then brings back food data</li>
 <li>A Google maps project where a user enters a specific address and Google maps returns a map with restaurants in the area of the address entered</li>
