@@ -7,19 +7,19 @@
 <h2 id="the-basic-idea">The Basic Idea</h2>
 <p>The final project for this course is to construct a web-based application of your choosing that meets the following criteria:</p>
 <ul>
-<li>The topic of the site should be one of significant personal interest to the student</li>
+<li>The topic of the site should be one of significant personal interest to you</li>
 <li>The site should incorporate the following technical criteria:
 <ul>
-<li>It should demonstrate competence with HTML and CSS</li>
-<li>It should consume a third-party API of the student’s choice</li>
-<li>It should use JavaScript to manipulate the data returned from the API (ideally, it should use an accumulator pattern)</li>
-<li>It should use jQuery to perform DOM-manipulation</li>
-<li>It should meet the standards of MVP and appear reasonably complete for the end-user</li>
+<li>It should demonstrate <strong>competence with HTML and CSS</strong></li>
+<li>It should consume a <strong>third-party API</strong> of the student’s choice</li>
+<li>It should <strong>use JavaScript to manipulate the data returned from the API</strong> (ideally, it should use an accumulator pattern)</li>
+<li>It should <strong>use jQuery</strong> to perform DOM-manipulation</li>
+<li>It should meet the standards of MVP (minimum viable product) and appear reasonably complete for the end-user</li>
 </ul>
 </li>
-<li>Your full working site shouldbe committed to GitHub</li>
+<li>Your full working site should be <strong>committed to GitHub</strong> for review</li>
 </ul>
-<h2 id="rubric">Rubric</h2>
+<h2 id="grading-rubric">Grading Rubric</h2>
 <p>You should choose goals to accumulate <em>at least</em> 100 points total. Each goal carries a max point value.</p>
 
 <table>
@@ -38,17 +38,27 @@
 </tr>
 <tr>
 <td>A layout with effective use of the box model (properly-aligned <em>div</em> tags with margin, padding, clear, and float)</td>
-<td>5</td>
-<td></td>
+<td>10</td>
+<td>Use advanced CSS properties in the <em>animation</em>, <em>flexbox</em>, and/or <em>transitions</em> sections of <a href="http://cssreference.io.">CSS Reference</a></td>
 </tr>
 <tr>
 <td>A single CSS3 stylesheet with classes and restyled HTML tags as appropriate (such as <em>ul</em>, <em>li</em>, <em>a</em> and so forth)</td>
 <td>5</td>
+<td>Use custom typefaces from Google Fonts; refer to the <em>typography</em> section of <a href="http://cssreference.io.">CSS Reference</a></td>
+</tr>
+<tr>
+<td>Clear, logical navigation between pages</td>
+<td>10</td>
+<td>Implement a <a href="https://codepen.io/philhoyt/pen/ujHzd">drop-down menu</a> using pure CSS</td>
+</tr>
+<tr>
+<td></td>
+<td>10</td>
 <td></td>
 </tr>
 <tr>
 <td></td>
-<td></td>
+<td>10</td>
 <td></td>
 </tr>
 </tbody>
