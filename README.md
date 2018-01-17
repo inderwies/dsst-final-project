@@ -52,12 +52,12 @@
 <td>Implement a <a href="https://codepen.io/philhoyt/pen/ujHzd">drop-down menu</a> using pure CSS</td>
 </tr>
 <tr>
-<td>Implement 2 or more JavaScript functions that provide</td>
-<td>10</td>
+<td>Write 2 or more JavaScript functions that manipulate information entered in your app (examples: a calculator, lookup against a list, etc.)</td>
+<td>20</td>
 <td></td>
 </tr>
 <tr>
-<td></td>
+<td>Use ajax to update the page</td>
 <td>10</td>
 <td></td>
 </tr>
@@ -90,8 +90,8 @@
 <p>Below is an example of functionality that you could build with the resources given to you. All of the images in the APIs above are high quality transparent pngs. You can link directly to the image links in the API.</p>
 <p>The example below could be considered a stretch goal, as it includes some intricate functionality as it relates to the way all of these DOM elements work together:</p>
 <h3 id="stock-images">Stock images</h3>
-<p>Stock images for this repo can be found here : <a href="https://learn.galvanize.com/gSchool/javascript-curriculum/fundamentals/160_Final_Project/fruit_store_images/stock.md">Image Folder</a></p>
-<p>p.s. yes : for anyone exploring the process of categorizing fruits using the categories api, a tomato is actually a berry !</p>
-<h3 id="reference">Reference</h3>
-<p>*p.p.s : you may need to add the CORS Chrome extension to make api calls to the heroku api listed above or any remote api that you’re hitting for the exercise. Google Allow-Control-Allow-Origin Chrome Extension and enable it in Chrome</p>
+<p>Stock images for this repo can be found <a href="https://learn.galvanize.com/gSchool/javascript-curriculum/fundamentals/160_Final_Project/fruit_store_images/stock.md">here</a>.</p>
+<p>p.s. yes, for anyone exploring the process of categorizing fruits using the categories api, a tomato is actually a berry!</p>
+<h3 id="important-note">Important Note</h3>
+<p>You may need to add the <a href="https://chrome.google.com/webstore/detail/cors-toggle/jioikioepegflmdnbocfhgmpmopmjkim?hl=en">CORS Chrome extension</a> to make API calls to the heroku API listed above or any remote api that you’re hitting for the exercise. Google Allow-Control-Allow-Origin Chrome Extension and enable it in Chrome</p>
 
