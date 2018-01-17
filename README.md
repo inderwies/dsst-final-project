@@ -52,7 +52,7 @@
 <td>Implement a <a href="https://codepen.io/philhoyt/pen/ujHzd">drop-down menu</a> using pure CSS</td>
 </tr>
 <tr>
-<td></td>
+<td>Implement 2 or more JavaScript functions that provide</td>
 <td>10</td>
 <td></td>
 </tr>
