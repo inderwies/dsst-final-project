@@ -1,3 +1,8 @@
+---
+
+
+---
+
 <h1 id="senior-academy-final-project">Senior Academy: Final Project</h1>
 <h2 id="the-basic-idea">The Basic Idea</h2>
 <p>The final project for this course is to construct a web-based application of your choosing that meets the following criteria:</p>
@@ -28,8 +33,8 @@
 <tbody>
 <tr>
 <td>At least 4 pages of content that use HTML5 with semantic tagging</td>
-<td>5</td>
-<td>Use the canvas tag</td>
+<td>10</td>
+<td>Use the <em>canvas</em> tag for a creative effect in your site (some <a href="https://www.sanwebe.com/2015/01/html5-canvas-examples">amazing inspiration</a> you can adapt for your own use)</td>
 </tr>
 <tr>
 <td>A layout with effective use of the box model (properly-aligned <em>div</em> tags with margin, padding, clear, and float)</td>
@@ -38,23 +43,28 @@
 </tr>
 <tr>
 <td>A single CSS3 stylesheet with classes and restyled HTML tags as appropriate (such as <em>ul</em>, <em>li</em>, <em>a</em> and so forth)</td>
-<td>5</td>
-<td>Use custom typefaces from Google Fonts; refer to the <em>typography</em> section of <a href="http://cssreference.io.">CSS Reference</a></td>
+<td>10</td>
+<td>Use custom typefaces from Google Fonts; refer to the <em>typography</em> section of [CSS Reference] (<a href="http://cssreference.io">http://cssreference.io</a>.) (+5 points)</td>
 </tr>
 <tr>
-<td>Clear, logical navigation between pages</td>
+<td>Clear, logical navigation between pages (use <em>semantic HTML</em> like <strong>nav</strong>)</td>
 <td>10</td>
 <td>Implement a <a href="https://codepen.io/philhoyt/pen/ujHzd">drop-down menu</a> using pure CSS</td>
 </tr>
 <tr>
 <td>Write 2 or more JavaScript functions that manipulate information entered in your app (examples: a calculator, lookup against a list, etc.)</td>
 <td>20</td>
-<td></td>
+<td>Parse JSON from an API (see below) and manipulate the output with JavaScript</td>
 </tr>
 <tr>
-<td>Use ajax to update the page</td>
-<td>10</td>
-<td></td>
+<td>Use jquery to update content in your app/site (implement <em>.ready</em>, <em>.hover</em>, and/or <em>.click</em>)</td>
+<td>20</td>
+<td>Use jquery <em>clone</em>, <em>remove</em> and a loop function</td>
+</tr>
+<tr>
+<td>Pull data from an API</td>
+<td>20</td>
+<td>Manipulate it using ajax (See Galvanize Unit 33)</td>
 </tr>
 </tbody>
 </table><h2 id="ideas-and-inspiration">Ideas and Inspiration</h2>
@@ -62,10 +72,10 @@
 <li>A recipes page where the users enters ingredients, the website hits an external api, and then brings back food data</li>
 <li>A Google maps project where a user enters a specific address and Google maps returns a map with restaurants in the area of the address entered</li>
 <li>A word game like hangman</li>
-<li>A movie database finder where a user types in a movie and is returned movie posters, and can click on any result in order to view one single poster (may need to use the omdb api  … Galvanize has an api key for this if you need to use it)</li>
+<li>A movie database finder where a user types in a movie and is returned movie posters, and can click on any result in order to view one single poster (you may use the <a href="https://www.omdbapi.com/">omdb api</a> for this)</li>
 </ul>
-<h3 id="optional-fruit-shop-api">Optional fruit shop api</h3>
-<p>Alternatively, if you wish, you can choose to build a project based on a simple fruits api that we have prepared for you. Here’s how this works:</p>
+<h3 id="optional-fruit-shop-api-developed-by-galvanize">Optional: Fruit Shop API (Developed by Galvanize)</h3>
+<p>Alternatively, you can choose to build a project based on a simple fruits API that we have prepared for you. Here’s how this works:</p>
 <p>You will use a simple fruits api and your own creative ideas to put together some sort of store that sells fruit based products. The api has three very simple end points:</p>
 <p><a href="https://agile-inlet-36787.herokuapp.com/get_fruits.json">https://agile-inlet-36787.herokuapp.com/get_fruits.json</a></p>
 <p>…returns you a list of fruits</p>
@@ -86,7 +96,7 @@
 <p>The example below could be considered a stretch goal, as it includes some intricate functionality as it relates to the way all of these DOM elements work together:</p>
 <h3 id="stock-images">Stock images</h3>
 <p>Stock images for this repo can be found <a href="https://learn.galvanize.com/gSchool/javascript-curriculum/fundamentals/160_Final_Project/fruit_store_images/stock.md">here</a>.</p>
-<p>p.s. yes, for anyone exploring the process of categorizing fruits using the categories api, a tomato is actually a berry!</p>
+<p>PS yes, for anyone exploring the process of categorizing fruits using the categories api, a tomato is actually a berry!</p>
 <h3 id="important-note">Important Note</h3>
-<p>You may need to add the <a href="https://chrome.google.com/webstore/detail/cors-toggle/jioikioepegflmdnbocfhgmpmopmjkim?hl=en">CORS Chrome extension</a> to make API calls to the heroku API listed above or any remote api that you’re hitting for the exercise. Google Allow-Control-Allow-Origin Chrome Extension and enable it in Chrome</p>
+<p>You may need to add the <a href="https://chrome.google.com/webstore/detail/cors-toggle/jioikioepegflmdnbocfhgmpmopmjkim?hl=en">CORS Chrome extension</a> to make API calls to the heroku API listed above or any remote api that you’re hitting for the exercise. Once added, enable it in Chrome.</p>
 
