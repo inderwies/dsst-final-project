@@ -1,8 +1,3 @@
----
-
-
----
-
 <h1 id="senior-academy-final-project">Senior Academy: Final Project</h1>
 <h2 id="the-basic-idea">The Basic Idea</h2>
 <p>The final project for this course is to construct a web-based application of your choosing that meets the following criteria:</p>
