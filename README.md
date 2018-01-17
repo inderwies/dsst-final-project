@@ -14,13 +14,13 @@
 <li>It should consume a <strong>third-party API</strong> of the student’s choice</li>
 <li>It should <strong>use JavaScript to manipulate the data returned from the API</strong> (ideally, it should use an accumulator pattern)</li>
 <li>It should <strong>use jQuery</strong> to perform DOM-manipulation</li>
-<li>It should meet the standards of MVP (minimum viable product) and appear reasonably complete for the end-user</li>
+<li>It should <strong>meet the standards of MVP (minimum viable product)</strong> and appear reasonably complete for a portfolio project</li>
 </ul>
 </li>
 <li>Your full working site should be <strong>committed to GitHub</strong> for review</li>
 </ul>
 <h2 id="grading-rubric">Grading Rubric</h2>
-<p>You should choose goals to accumulate <em>at least</em> 100 points total. Each goal carries a max point value.</p>
+<p>You should choose goals to accumulate <em>at least</em> 100 points total. Each goal carries a max point value. Stretch goals allow you to buffer your final grade by factor of 50%. For example, a 10 point goal can stretch to 15, 20 points stretches to 30, etc.</p>
 
 <table>
 <thead>
@@ -43,12 +43,12 @@
 </tr>
 <tr>
 <td>A single CSS3 stylesheet with classes and restyled HTML tags as appropriate (such as <em>ul</em>, <em>li</em>, <em>a</em> and so forth)</td>
-<td>10</td>
-<td>Use custom typefaces from Google Fonts; refer to the <em>typography</em> section of [CSS Reference] (<a href="http://cssreference.io">http://cssreference.io</a>.) (+5 points)</td>
+<td>20</td>
+<td>Use custom typefaces from Google Fonts; refer to the <em>typography</em> section of [CSS Reference] (<a href="http://cssreference.io">http://cssreference.io</a>.)</td>
 </tr>
 <tr>
 <td>Clear, logical navigation between pages (use <em>semantic HTML</em> like <strong>nav</strong>)</td>
-<td>10</td>
+<td>20</td>
 <td>Implement a <a href="https://codepen.io/philhoyt/pen/ujHzd">drop-down menu</a> using pure CSS</td>
 </tr>
 <tr>
@@ -58,12 +58,12 @@
 </tr>
 <tr>
 <td>Use jquery to update content in your app/site (implement <em>.ready</em>, <em>.hover</em>, and/or <em>.click</em>)</td>
-<td>20</td>
+<td>10</td>
 <td>Use jquery <em>clone</em>, <em>remove</em> and a loop function</td>
 </tr>
 <tr>
 <td>Pull data from an API</td>
-<td>20</td>
+<td>10</td>
 <td>Manipulate it using ajax (See Galvanize Unit 33)</td>
 </tr>
 </tbody>
@@ -74,7 +74,7 @@
 <li>A word game like hangman</li>
 <li>A movie database finder where a user types in a movie and is returned movie posters, and can click on any result in order to view one single poster (you may use the <a href="https://www.omdbapi.com/">omdb api</a> for this)</li>
 </ul>
-<h3 id="optional-fruit-shop-api-developed-by-galvanize">Optional: Fruit Shop API (Developed by Galvanize)</h3>
+<h2 id="optional-fruit-shop-api-developed-by-galvanize">Optional: Fruit Shop API (Developed by Galvanize)</h2>
 <p>Alternatively, you can choose to build a project based on a simple fruits API that we have prepared for you. Here’s how this works:</p>
 <p>You will use a simple fruits api and your own creative ideas to put together some sort of store that sells fruit based products. The api has three very simple end points:</p>
 <p><a href="https://agile-inlet-36787.herokuapp.com/get_fruits.json">https://agile-inlet-36787.herokuapp.com/get_fruits.json</a></p>
@@ -94,9 +94,12 @@
 </ul>
 <p>Below is an example of functionality that you could build with the resources given to you. All of the images in the APIs above are high quality transparent pngs. You can link directly to the image links in the API.</p>
 <p>The example below could be considered a stretch goal, as it includes some intricate functionality as it relates to the way all of these DOM elements work together:</p>
-<h3 id="stock-images">Stock images</h3>
-<p>Stock images for this repo can be found <a href="https://learn.galvanize.com/gSchool/javascript-curriculum/fundamentals/160_Final_Project/fruit_store_images/stock.md">here</a>.</p>
+<h2 id="photosimages">Photos/images</h2>
+<ul>
+<li>For the fruit example, stock images for this repo can be found <a href="https://learn.galvanize.com/gSchool/javascript-curriculum/fundamentals/160_Final_Project/fruit_store_images/stock.md">here</a>.</li>
+<li>For other projects, use <a href="unsplash.com">unsplash</a>, <a href="500px.com">500px</a> or other sites (google “best free stock photos”). Bonus points if you use your <em>own</em> photography or artwork.</li>
+</ul>
 <p>PS yes, for anyone exploring the process of categorizing fruits using the categories api, a tomato is actually a berry!</p>
-<h3 id="important-note">Important Note</h3>
-<p>You may need to add the <a href="https://chrome.google.com/webstore/detail/cors-toggle/jioikioepegflmdnbocfhgmpmopmjkim?hl=en">CORS Chrome extension</a> to make API calls to the heroku API listed above or any remote api that you’re hitting for the exercise. Once added, enable it in Chrome.</p>
+<h2 id="important-note">Important Note</h2>
+<p>You may need to add the <a href="https://chrome.google.com/webstore/detail/cors-toggle/jioikioepegflmdnbocfhgmpmopmjkim?hl=en">CORS Chrome extension</a> to make API calls to the heroku API listed above or any remote API that you’re hitting for your project. Once added, enable it in Chrome.</p>
 
