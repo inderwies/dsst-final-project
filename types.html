@@ -3,6 +3,7 @@
   <meta>
   </meta>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
   <header>
@@ -32,6 +33,28 @@
         <li>percolator</li>
         <li>cold brew</li>
       <ul>
+
+  <script>
+
+  var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "https://api.yelp.com/v3/businesses/search?term=delis&latitude=37.786882&longitude=-122.399972",
+    "method": "GET",
+    "headers": {
+      "authorization": "Bearer t7heRgezsYg73jBYlnMW-UfJkv7Dg6MbyiaICDD6Uzo1DlUTH0sZ6VwqkZ-66E2_mRYn49YnebZ5bt4LWIEm4tAEvzV8s_2POl7w7fMmb5tjRfIm21B4yI4GANNoWnYx",
+      "cache-control": "no-cache",
+      "postman-token": "272a7ba1-dcd8-4bd4-0f32-67ec635942e0"
+    }
+  }
+
+  $.ajax(settings).done(function (response) {
+    console.log(response);
+  });
+
+  </script>
+
+  </main>
     <footer>
       <p>A project for the masses, copyright 2018</p>
     </footer>
