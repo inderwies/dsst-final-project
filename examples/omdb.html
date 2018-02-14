@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <!-- required: addition of jquery from google library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <script>
+    var settings = {
+      "async": true,
+      "crossDomain": true,
+      "url": "http://www.omdbapi.com/?t=pulp+fiction&y=1994&apikey=f8914b8c",
+      "method": "GET",
+      "headers": {
+        "Cache-Control": "no-cache",
+        "Postman-Token": "e91599f6-16c4-0738-2697-e0dba65546c3"
+      }
+    }
+
+    $.ajax(settings).done(function (response) {
+      console.log(response);
+    });
+
+    $.ajax(settings).done(function (response) {
+        $("#movie").append(JSON.stringify(response));
+     });
+
+    </script>
+    <div id="movie"></div>
+  </body>
+</html>

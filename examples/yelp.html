@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <!-- required: addition of jquery from google library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <script>
+    //establish a hash containing all settings to be passed in the API call
+    var settings = {
+    "async": true,
+    "crossDomain": true,
+    "url": "https://api.yelp.com/v3/businesses/search?term=coffee&latitude=37.786882&longitude=-122.399972",
+    "method": "GET",
+    "headers": {
+      "Authorization": "Bearer t7heRgezsYg73jBYlnMW-UfJkv7Dg6MbyiaICDD6Uzo1DlUTH0sZ6VwqkZ-66E2_mRYn49YnebZ5bt4LWIEm4tAEvzV8s_2POl7w7fMmb5tjRfIm21B4yI4GANNoWnYx",
+      "Cache-Control": "no-cache",
+      "Postman-Token": "5fc7d53f-3d0e-282b-fbc6-35cd1c66149a"
+    }
+  }
+
+  $.ajax(settings).done(function (response) {
+    console.log(response);
+  });
+
+    $.ajax(settings).done(function (response) {
+        $("#locations").append(JSON.stringify(response));
+     });
+
+    </script>
+    <div id="locations"></div>
+  </body>
+</html>
